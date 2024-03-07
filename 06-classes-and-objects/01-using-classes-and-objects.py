@@ -20,7 +20,7 @@ print(x, "\n")
 # (dir is designed to be used for humans to understand objects.)
 print(dir(x), "\n")
 
-# the vars function is similar, but it is designed to be used more programatically
+# the vars function is similar, but it is designed to be used more programmatically
 # (it also has some peculiarities, which is why we have to call it this strange 
 # looking way for lists). Vars returns a dictionary mapping propertyName->propertyValue
 for prop_name, prop_value in vars(x.__class__).items():
