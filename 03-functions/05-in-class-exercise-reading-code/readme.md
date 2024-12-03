@@ -6,7 +6,7 @@ For each file, follow these steps:
 
 1. Read the code (do not execute the code yet!).
 2. Try to describe what the function or functions do.
-3. Try to describe how the function(s) acheive that behavior.
+3. Try to describe how the function(s) achieve that behavior.
 4. Predict the output (each example prints some stuff).
 5. Run the code and check your predictions.
 6. If you were wrong, try to figure out why.
