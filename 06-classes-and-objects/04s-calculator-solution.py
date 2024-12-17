@@ -11,7 +11,7 @@ class Calculator:
         self.current_val = 0
 
     def run_display(self):
-        # If there is a pending operator we'll do that calcuation with whatever is input.
+        # If there is a pending operator we'll do that calculation with whatever is input.
         # Otherwise we'll set the current value to the input
         self.pending_operator = None
         while True:
@@ -33,7 +33,7 @@ class Calculator:
                 self.pending_operator = user_in
                 self.additional_display = None
                 continue
-            # If it's not an operator, make sure it's a nuber and cast it as such.
+            # If it's not an operator, make sure it's a number and cast it as such.
             else:
                 try:
                     user_in = float(user_in)
